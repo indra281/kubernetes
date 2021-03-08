@@ -8,3 +8,8 @@ kubectl get all
 ```
 kubectl expose deploy nginx-test --port 80 --type NodePort
 ```
+
+
+```
+kubectl logs --follow  <pod name>
+```
