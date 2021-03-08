@@ -1,14 +1,14 @@
-# Kubernetes Cluster installation using kubeadm
+# Kubernetes Cluster installation using kubeadm ( Cent OS)
 Follow this documentation to set up a Kubernetes cluster on __CentOS__ 7 machines.
 
-This documentation guides you in setting up a cluster with one master node and two worker nodes.
+This documentation guides you in setting up a cluster with one master node and  worker nodes.
 
 ## Prerequisites: 
 1. System Requirements 
     >Master:  (2 CPUs and 2GB Memory)  recommed  
     >Worker Nodes:  
 
-1. Open Below ports in the Security Group. 
+1. Open Below ports in the Security Group.  ( If AWS servers)
    #### Master node: 
     `6443  
     32750  
